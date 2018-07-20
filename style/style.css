@@ -1,0 +1,96 @@
+.banner * { position: absolute; }
+
+.head {
+	top: 250px;
+	width: 300px;
+	height: 250px;
+	background-size: 1200px 275px;
+	background-image: url('images/head.png')
+}
+
+.brows {
+	top: 10px;
+	background-position: -300px 0;
+}
+
+.eyes {
+	top: -3px;
+	background-position: -600px 0;
+}
+
+.copy {
+	width: 300px;
+	height: 250px;
+	background-size: 1500px 250px;
+	background-image: url('images/copy-crush.png');
+	opacity: 0;
+}
+
+.copy2rb {
+	width: 150px;
+	height: 60px;
+	background-position: -1200px 0;
+}
+
+.copy2rc {
+	left: 150px;
+	width: 150px;
+	height: 60px;
+	background-position: -1350px 0;
+}
+
+.copy2ra {
+	top: 60px;
+	width: 150px;
+	height: 190px;
+	background-position: -1200px -60px;
+}
+
+.copy2rd {
+	top: 60px;
+	left: 150px;
+	width: 150px;
+	height: 190px;
+	background-position: -1350px -60px;
+}
+
+.copy2 {
+	height: 167px;
+	background-position: -300px 0;
+}
+
+.copy2b {
+	top: 167px;
+	height: 83px;
+	background-position: -300px -167px;
+}
+
+.copy3 {
+	background-position: -600px 0;
+}
+
+.copy4 {
+	height: 150px;
+	background-position: -900px 0;
+}
+
+.cta {
+	top: 150px;
+	height: 100px;
+	background-position: -900px -150px;
+}
+
+.can {
+	width: 300px;
+	height: 250px;
+}
+
+.four {
+	top: -70px;
+	left: 18px;
+	transform: scale(.87);
+}
+
+.cssfilters .multiply {
+	mix-blend-mode: multiply;
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Canvas Engine</title>
+
+    <!-- VENDOR CSS -->
+    <link inline href="style/vendor/reset.min.css" rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+      body, .tag, .banner, .backup {
+        position: absolute; width: 600px; height: 500px;
+        background-color: black;
+      } 
+      
+      .banner {
+        overflow: hidden; cursor: pointer; cursor: hand;
+        background-color: lightgrey;
+      }
+  
+      .banner * {
+        position: absolute;
+      }
+
+      .can {
+        width: 600px;
+        height: 500px;
+      }
+      
+      .multiply {
+        mix-blend-mode: multiply;
+      }
+
+    </style>
+
+    <!-- BANNER STYLE & ANIMATION CSS 
+    <link inline href="style/style.css" rel="stylesheet" type="text/css">         Style the banner as the last from of animation -->
+
+  </head>
+
+  <body>
+    <div style="background-size:600px 500px; background-image:url('images/bg.jpg');" class="banner">
+        <canvas class="can" id="cleaner_can" width="600" height="500"></canvas>
+        <canvas class="can" id="mini_can" width="600" height="500"></canvas>
+        <canvas class="can" id="bomb_can" width="600" height="500"></canvas>
+    </div>
+
+    <!-- VENDOR JS -->
+    <script src="scripts/vendor/TweenLite.min.js"></script>
+    <script src="scripts/vendor/easing/EasePack.min.js"></script>
+    <script src="scripts/vendor/plugins/CSSPlugin.min.js"></script>
+    <script src="scripts/vendor/plugins/BezierPlugin.min.js"></script>
+    <script src="scripts/vendor/rAF.js"></script>
+
+    <script src="CanvasObject.js"></script>
+    <script src="CanvasObjectDrawer.js"></script>
+    <script src="CanvasObjectLoader.js"></script>
+    
+
+    <!-- BANNER JS -->
+    <script src="script.js"></script>                                        <!--Any  JS you mighht want to run -->
+
+  </body>
+</html>
